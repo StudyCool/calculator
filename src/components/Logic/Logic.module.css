@@ -1,0 +1,39 @@
+
+
+.operator{
+    background-color: #e8e8e8;
+    width: 20%;
+    border: 1px solid #aeacab;
+
+}
+
+.calculate{
+    width: 25%;
+    height: 80%;
+    background-color: #f57a4a;
+
+}
+td{
+    height: 20%;
+    width: 25%;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #aeacab;
+
+
+}
+
+
+
+table{
+    min-width: 320px;
+    max-width: 640px;
+    min-height: 320px;
+    max-height: 640px;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}

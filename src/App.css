@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.calculator{
+  min-width: 320px;
+  max-width: 580px;
+  min-height: 320px;
+  max-height: 580px;
+  border-radius: 5%;
+  background-color: white;
+
+}

@@ -1,10 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-function OperatorButton (props) {
+function Button (props) {
 
   return (
-    <div>{props.children}</div>
+    <div className={props.className}>{props.children}</div>
   );
 }
 
-export default OperatorButton;
+Button.propTypes = {
+children: PropTypes.element.isRequired,
+  className:PropTypes.string,
+};
+
+Button.propTypes.default = {
+  className: ''
+}
+
+export default Button;

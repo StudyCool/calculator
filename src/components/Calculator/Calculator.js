@@ -13,15 +13,15 @@ class Calculator extends Component {
 
     onEqualClickHandler = () =>{
     this.setState({
-      result: result
+
     })
     }
     render () {
 return(
-    <div>
+    <>
       <Display/>
       <Logic/>
-    </div>
+    </>
 
 )
     }

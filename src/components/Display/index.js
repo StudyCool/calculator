@@ -3,7 +3,7 @@ import styles from './Display.module.css';
 
 function Display (props) {
   return (
-    <div className={styles.display}/>
+    <div className={styles.display}>{props.children}</div>
   )
 }
 

@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
 import styles from './App.css';
-import Display from './components/Logic';
-import Logic from './components/Display';
+import Logic from './components/Logic';
+import Display from './components/Display';
 
-function App () {
+function App() {
   return (
-    <div className="App">
-      <div className={styles.calculator}>
+      <div className="App">
         <Display/>
         <Logic/>
       </div>
-
-    </div>
   );
 }
 

@@ -1,8 +1,7 @@
-.display{
+.display {
     width: inherit;
     background-color: black;
     color: white;
     font-size: 20px;
-
-
+    height: 100px;
 }

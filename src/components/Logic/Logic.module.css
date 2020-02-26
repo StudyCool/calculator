@@ -1,39 +1,40 @@
 
 
-.operator{
-    background-color: #e8e8e8;
-    width: 20%;
-    border: 1px solid #aeacab;
+.logic {
+
 
 }
-
-.calculate{
-    width: 25%;
-    height: 80%;
-    background-color: #f57a4a;
-
+table {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 26px;
+    table-layout: fixed;
 }
-td{
-    height: 20%;
-    width: 25%;
+td {
+
     background-color: white;
     cursor: pointer;
-    font-size: 16px;
-    padding: 10px;
-    text-align: center;
+    padding: 30px;
+
     border: 1px solid #aeacab;
+}
+
+.operator {
+    background-color: #e8e8e8;
+    border: 1px solid #aeacab;
+    padding: 30px;
+
+}
+
+.calculate {
+
+
+    background-color: #f57a4a;
 
 
 }
 
 
 
-table{
-    min-width: 320px;
-    max-width: 640px;
-    min-height: 320px;
-    max-height: 640px;
-    margin: 0 auto;
-    margin-top: 10%;
 
-}
